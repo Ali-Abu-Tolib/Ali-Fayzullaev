@@ -1,0 +1,83 @@
+
+
+/* font-size */
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-15 {
+    font-size: 14px;
+}
+
+/* font-size */
+
+/* border */
+.bb {
+    border: 2px solid red;
+}
+/* border */
+
+/* style icon */
+.custom-bg-icon {
+    padding: 5px;
+    background-color: rgb(242, 242, 244);
+    border-radius: 10px;
+    color: rgb(94, 92, 92);
+}
+
+.custom-bg-icon:hover {
+    background-color: rgb(196, 196, 198);
+    color: rgb(0, 0, 0);
+}
+
+
+/* style icon */
+
+/* custom bg */
+.transparent-novbar {
+    width: 100vw;
+    background-color: #F8F9FA;
+    opacity: 0.9; /* 50% прозрачности */
+}
+
+/* custom bg */
+
+/* overflow-x-hidden  */
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+/* overflow-x-hidden  */
+
+
+/* style Email and password */
+.costom-inpud {
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.costom-inpud:focus {
+    border: 2px solid rgb(19, 34, 235);
+    box-shadow: none;
+}
+/* style Email and password */
+
+/* style accordion for change color */
+.custom-accordion {
+    background-color: rgb(226, 223, 207); /* начальный цвет */
+    transition: background-color 2s ease-in-out;
+}
+
+.custom-accordion:focus {
+    background-color: rgb(131, 213, 186); /* конечный цвет */
+}
+/* style accordion for change color */
+/* for Js colorFont  */ 
+.transition {
+    background-color: rgb(226, 223, 207);
+    transition: background-color 0.5s ease-in-out;
+}
+/* for Js colorFont */
+
+.pointer {
+    cursor: pointer;
+}
