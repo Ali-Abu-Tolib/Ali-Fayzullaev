@@ -70,6 +70,7 @@
           </div>
         </div>
       </nav>
+
       <!-- navbar link -->
       <div class="row ms-4">
         <div class="col-4">
@@ -100,29 +101,71 @@
         </div>
       </div>
 
-      <!-- main-Registrations -->
+      <!-- main-page -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-7">
+            <div id="carouselFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/dash.webp" class="d-block w-100 bg-light rounded-5" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/thumbnail.webp" class="d-block w-100 bg-light rounded-5" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/pageFour2.webp" class="d-block w-100 bg-light rounded-5" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/shoes.webp" class="d-block w-100 bg-light rounded-5" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-black rounded-pill" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-black rounded-pill" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4 ps-3 pt-lg-5">
+            <div class="row">
+              <div class="col-12 my-3">
+                <p class="h4">Saleor Dash Shoes</p>
+              </div>
+              <div class="col-12 my-3">
+                <p class="fs-15 fw-medium" id="price">$54.00 - $90.00</p>
+              </div>
+              <div class="col-12 my-3">
+                <input type="radio" class="btn-check" name="options-outlined" id="size39" autocomplete="off" checked />
+                <label class="btn btn-outline-dark rounded-1 size py-2 px-3 border fs-15 fw-medium" for="size39">39</label>
 
-      <div class="container-fluid">
-        <div class="row m-5 d-flex justify-content-center">
-          <div class="col-12 col-md-8 col-lg-4 shadow-sm border p-3 mb-5 bg-light rounded">
-            <form class="row g-3 needs-validation p-3" novalidate>
-              <div class="col-md-12">
-                <input type="email" class="form-control costom-inpud" placeholder="Email" id="idEmail" required />
-                <div class="invalid-feedback">Please provide a valid Email.</div>
-              </div>
-              <div class="col-md-12">
-                <input type="password" class="form-control costom-inpud" placeholder="Password" id="idPassword" required />
-                <div class="invalid-feedback">Please provide a valid password.</div>
-              </div>
+                <input type="radio" class="btn-check" name="options-outlined" id="size40" autocomplete="off" checked />
+                <label class="btn btn-outline-dark rounded-1 size py-2 px-3 border fs-15 fw-medium" for="size40">40</label>
 
-              <div class="col-12">
-                <button class="btn btn-dark fs-15 px-3 rounded-1 py-2" type="submit">Log in</button>
+                <input type="radio" class="btn-check" name="options-outlined" id="size41" autocomplete="off" checked />
+                <label class="btn btn-outline-dark rounded-1 size py-2 px-3 border fs-15 fw-medium" for="size41">41</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="size42" autocomplete="off" checked />
+                <label class="btn btn-outline-dark rounded-1 size py-2 px-3 border fs-15 fw-medium" for="size42">42</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="size43" autocomplete="off" checked />
+                <label class="btn btn-outline-dark mt-0 mt-md-1 mt-lg-0 rounded-1 size py-2 px-3 border fs-15 fw-medium" for="size43">43</label>
               </div>
-            </form>
+              <div class="col-12 my-3">
+                <button class="btn btn-light border rounded-1" id="buttonForSize" type="button">Addto card</button>
+              </div>
+              <div class="col-12 my-3">
+                <p class="fw-medium text-body-tertiary fs-15">Step into summer with the right balance. Every time your head goes down, you see these beauties, and your mood bounces right back up.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- main-Registrations -->
+
+      <!-- main-page -->
 
       <!-- footer -->
 
@@ -183,7 +226,9 @@
 
       <!-- footer -->
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/changePrice.js"></script>
     <script src="./js/colorFont.js"></script>
   </body>
 </html>
