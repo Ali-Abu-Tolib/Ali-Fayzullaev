@@ -33,12 +33,6 @@
 
 /* style icon */
 
-/* custom bg */
-.transparent-novbar {
-    width: 100vw;
-    background-color: #F8F9FA;
-    opacity: 0.9; /* 50% прозрачности */
-}
 
 /* custom bg */
 
@@ -77,6 +71,10 @@
     transition: background-color 0.5s ease-in-out;
 }
 /* for Js colorFont */
+
+.bg-default {
+    background-color: rgb(240, 241, 242);
+}
 
 .pointer {
     cursor: pointer;
